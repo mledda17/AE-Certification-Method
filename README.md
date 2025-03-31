@@ -1,4 +1,4 @@
-# A Certification Method for Model Identification via Neural Networks with application to Autoencoders for Hybrid Linear Systems
+# Certification of Autoencoder-based Models for Dynamical Systems 
 Authors:
 Marco Ledda, Student, IEEE 
 Diego Deplano, Member, IEEE,
