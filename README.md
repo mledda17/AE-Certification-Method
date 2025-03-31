@@ -26,8 +26,20 @@ In this work, we propose an optimization-based certification approach to quantif
 
 ## 🚀 Getting Started
 
-### Requirements
+### Setup
+1. Clone the repository
+2. Install requirements and dependecies
+3. Run experiments
 
+### Clone the repository
+First of all, you will need to clone this repository. To do this, run the following command:
+
+```bash
+git clone https://github.com/mledda17/AE-Certification-Method.git
+```
+
+### Install requirements and dependecies
+You will need the following libraries to run the experiments:
 - Python 3.10+
 - Matplotlib
 - Numpy
@@ -38,5 +50,11 @@ Install dependencies via:
 
 ```bash
 pip install -r requirements.txt
+```
 
+### Run experiments
+All experiments can be executed using the following command:
+```bash
+python3 main.py
+```
 
