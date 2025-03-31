@@ -28,8 +28,11 @@ In this work, we propose an optimization-based certification approach to quantif
 
 ### Requirements
 
-- Python 3.8+
-- torch, numpy, matplotlib, etc.
+- Python 3.10+
+- Matplotlib
+- Numpy
+- Tensorflow
+- Keras
 
 Install dependencies via:
 
