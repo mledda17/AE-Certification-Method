@@ -19,7 +19,8 @@ Among them, autoencoder-based architectures have gained popularity due to their 
 ### Setup
 1. Clone the repository
 2. Install requirements and dependecies
-3. Run experiments
+3. Get an API Key for Gurobi
+4. Run experiments
 
 ### Clone the repository
 First of all, you will need to clone this repository. To do this, run the following command:
@@ -42,6 +43,14 @@ Install dependencies via:
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Get an API Key for Gurobi
+You can get an API for Gurobi from the official website. Then, add in your .env file the key in the given format:
+```bash
+WLSACCESSID = [...]
+WLSSECRET   = [...]
+LICENSEID   = [...]
 ```
 
 ### Run experiments
