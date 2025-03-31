@@ -24,14 +24,14 @@ Among them, autoencoder-based architectures have gained popularity due to their 
 3. Get an API Key for Gurobi
 4. Run experiments
 
-### Clone the repository
+### 1. Clone the repository
 First of all, you will need to clone this repository. To do this, run the following command:
 
 ```bash
 git clone https://github.com/mledda17/AE-Certification-Method.git
 ```
 
-### Install requirements and dependecies
+### 2. Install requirements and dependecies
 You will need the following libraries to run the experiments:
 - Python 3.10+
 - Gurobipy 12.0.1+
@@ -47,7 +47,7 @@ Install dependencies via:
 pip install -r requirements.txt
 ```
 
-### Get an API Key for Gurobi
+### 3. Get an API Key for Gurobi
 You can get an API for Gurobi from the official website. Then, add in your .env file the key in the given format:
 ```bash
 WLSACCESSID = [...]
@@ -55,7 +55,7 @@ WLSSECRET   = [...]
 LICENSEID   = [...]
 ```
 
-### Run experiments
+### 4. Run experiments
 All experiments can be executed using the following command:
 ```bash
 python3 main.py
