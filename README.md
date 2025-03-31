@@ -31,6 +31,7 @@ git clone https://github.com/mledda17/AE-Certification-Method.git
 ### Install requirements and dependecies
 You will need the following libraries to run the experiments:
 - Python 3.10+
+- Gurobipy 12.0.1+
 - Matplotlib 3.10.1+
 - Numpy 2.1.3+
 - Tensorflow 2.19.0+
