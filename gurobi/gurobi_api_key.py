@@ -1,5 +1,0 @@
-params = {
-    "WLSACCESSID": "5132f5e8-f73b-485e-a142-1d937777c9e7", 
-    "WLSSECRET": "ea61ada9-a753-47a4-8944-1c6815eec442", 
-    "LICENSEID": 2594229
-}

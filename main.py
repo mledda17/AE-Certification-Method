@@ -3,7 +3,7 @@ import itertools
 import matplotlib.pyplot as plt
 import os
 import scienceplots
-from gurobi.gurobi_api_key import params
+from dotenv import load_dotenv
 from utilities.systemselector import SystemSelectorEnum
 from utilities.train_autoencoder import train_autoencoder
 from scripts.certify import certify_autoencoder
@@ -12,6 +12,14 @@ from scripts.certify_hybrid import certify_hybrid
             
 
 if __name__ == '__main__':
+
+    load_dotenv()
+
+    params = {
+        "WLSACCESSID": os.getenv("WLSACCESSID"),
+        "WLSSECRET": os.getenv("WLSSECRET"),
+        "LICENSEID": int(os.getenv("LICENSEID"))
+    }
 
     cases = {"1": "linear", "2": "pwa", "3": "nonlinear"}
 
