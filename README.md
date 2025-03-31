@@ -1,7 +1,7 @@
 # 
 
 
-# 🧠 Certification of Autoencoder-based Models for Dynamical Systems 
+# Certification of Autoencoder-based Models for Dynamical Systems 
 
 Official code for the paper: **"Certification of Autoencoder-based Models for Dynamical Systems "**  
 
