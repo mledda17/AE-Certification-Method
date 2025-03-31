@@ -8,6 +8,8 @@ Authors:
 - Alessandro Giua, Fellow, IEEE
 - Mauro Franceschelli, Senior, IEEE
 
+All authors are with the DIEE, University of Cagliari, 09123 Cagliari, Italy.
+
 ## 📝 Abstract
 
 > Deep learning models have emerged as powerful tools for modeling complex dynamical systems, offering data-driven alternatives to traditional identification techniques.
