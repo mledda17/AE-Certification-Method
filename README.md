@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![License](https://img.shields.io/github/license/mledda17/AE-Certification-Method.svg)
 ![Issues](https://img.shields.io/github/issues/mledda17/AE-Certification-Method.svg)
+[![Requirements Status](https://requires.io/github/mledda17/AE-Certification-Method/requirements.svg?branch=main)](https://requires.io/github/mledda17/AE-Certification-Method/requirements/?branch=main)
 ![Stars](https://img.shields.io/github/stars/mledda17/AE-Certification-Method.svg?style=social)
 ![Forks](https://img.shields.io/github/forks/mledda17/AE-Certification-Method.svg?style=social)
 
