@@ -31,10 +31,11 @@ git clone https://github.com/mledda17/AE-Certification-Method.git
 ### Install requirements and dependecies
 You will need the following libraries to run the experiments:
 - Python 3.10+
-- Matplotlib
-- Numpy
-- Tensorflow
-- Keras
+- Matplotlib 3.10.1+
+- Numpy 2.1.3+
+- Tensorflow 2.19.0+
+- Keras 2.9.0+
+- Scipy 1.15.2
 
 Install dependencies via:
 
