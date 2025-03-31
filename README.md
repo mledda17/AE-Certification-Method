@@ -67,11 +67,12 @@ All experiments can be executed using the following command:
 python3 main.py
 ```
 
-## Citation
+## Cite us
+```bash
 @inproceedings{your2025paper,
   title     = {Paper Title},
   author    = {Your Name and Coauthor},
   booktitle = {Conference Name},
   year      = {2025}
 }
-
+```
