@@ -67,6 +67,8 @@ All experiments can be executed using the following command:
 python3 main.py
 ```
 
+The results of the experiments will be put in a new folder "certification_results/".
+
 ## Cite us
 ```bash
 @inproceedings{your2025paper,
