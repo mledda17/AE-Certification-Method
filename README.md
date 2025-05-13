@@ -68,13 +68,4 @@ python3 main.py
 ```
 
 The results of the experiments will be put in a new folder "certification_results/".
-
-## Cite us
-```bash
-@inproceedings{your2025paper,
-  title     = {Paper Title},
-  author    = {Your Name and Coauthor},
-  booktitle = {Conference Name},
-  year      = {2025}
-}
 ```
