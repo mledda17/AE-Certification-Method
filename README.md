@@ -68,4 +68,3 @@ python3 main.py
 ```
 
 The results of the experiments will be put in a new folder "certification_results/".
-```
