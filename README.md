@@ -1,7 +1,6 @@
 # Certification of Autoencoder-based Models for Dynamical Systems 
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![License](https://img.shields.io/github/license/mledda17/AE-Certification-Method.svg)
 
 Official code for the paper: **"Certification of Autoencoder-based Models for Dynamical Systems "**  
 
