@@ -1,6 +1,9 @@
 # Certification of Autoencoder-based Models for Dynamical Systems 
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![Build Status](https://img.shields.io/github/actions/workflow/status/mledda17/AE-Certification-Method/ci.yml?branch=main)
+![License](https://img.shields.io/github/license/mledda17/AE-Certification-Method.svg)
+![IEEE CDC 2025](https://img.shields.io/badge/Accepted%20@-IEEE%20CDC%202025-blue)
 
 Official code for the paper: **"Certification of Autoencoder-based Models for Dynamical Systems "**  
 
