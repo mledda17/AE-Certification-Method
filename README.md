@@ -2,9 +2,6 @@
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![License](https://img.shields.io/github/license/mledda17/AE-Certification-Method.svg)
-![Issues](https://img.shields.io/github/issues/mledda17/AE-Certification-Method.svg)
-![Stars](https://img.shields.io/github/stars/mledda17/AE-Certification-Method.svg?style=social)
-![Forks](https://img.shields.io/github/forks/mledda17/AE-Certification-Method.svg?style=social)
 
 Official code for the paper: **"Certification of Autoencoder-based Models for Dynamical Systems "**  
 
@@ -68,3 +65,9 @@ python3 main.py
 ```
 
 The results of the experiments will be put in a new folder "certification_results/".
+
+**🎉 Conference Acceptance**
+
+> This paper has been accepted for presentation at the IEEE Conference on Decision and Control (CDC) 2025, to be held in Rio de Janeiro, Brazil, December 9–12, 2025.
+
+Official code for the paper: **"Certification of Autoencoder-based Models for Dynamical Systems "**  
