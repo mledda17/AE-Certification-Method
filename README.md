@@ -70,4 +70,4 @@ The results of the experiments will be put in a new folder "certification_result
 
 This paper has been accepted for presentation at the IEEE Conference on Decision and Control (CDC) 2025, to be held in Rio de Janeiro, Brazil, December 9–12, 2025.
 
-Official code for the paper: **"Certification of Autoencoder-based Models for Dynamical Systems "**  
+Official code for the paper: **"Certification of Autoencoder-based Models for Dynamical Systems"**  
