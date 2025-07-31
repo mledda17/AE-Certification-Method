@@ -1,9 +1,9 @@
-import gurobipy as gp
 import itertools
 import matplotlib.pyplot as plt
 import os
 import scienceplots
 from dotenv import load_dotenv
+import gurobipy as gp
 from utilities.systemselector import SystemSelectorEnum
 from utilities.train_autoencoder import train_autoencoder
 from scripts.certify import certify_autoencoder
@@ -14,6 +14,8 @@ from scripts.certify_hybrid import certify_hybrid
 if __name__ == '__main__':
 
     load_dotenv()
+
+    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
     params = {
         "WLSACCESSID": os.getenv("WLSACCESSID"),
@@ -119,6 +121,13 @@ if __name__ == '__main__':
                                 fig.savefig(plot_path, dpi=300)
                                 plt.close()
                                 result_entry["plot"] = plot_path
+
+                            dat_path = os.path.join(results_dir, f"plot_L{n_layer}_N{n_neurons}_S{state_size}.dat")
+                            with open(dat_path, "w") as f_dat:
+                                f_dat.write("k\ty_sys\ty_pred\n")
+                                for k, (y_s, y_p) in enumerate(zip(solution["y_sys"], solution["y_pred"])):
+                                    f_dat.write(f"{k}\t{y_s:.6f}\t{y_p:.6f}\n")
+                            result_entry["dat"] = dat_path
                     
                         experiment_summary.append(result_entry)
 
