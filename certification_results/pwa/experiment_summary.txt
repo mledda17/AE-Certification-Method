@@ -1,6 +1,0 @@
-Layers: 2, Neurons: 6, State Size: 6
-Status: Success
-Objective Value: 58.9824
-Solving time: 0.001398324966430664
-Plot saved at: certification_results/pwa/plot_L2_N6_S6.pdf
-------------------------------------------------------------
